@@ -2,13 +2,15 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { EmployeeComponent } from '../Components/EmployeeComponent';
+import {GridComponent} from "../Components/GridComponent"
 @NgModule({
     imports: [
         BrowserModule,
         FormsModule
     ],
     declarations: [
-        EmployeeComponent
+        EmployeeComponent,
+        GridComponent
     ],
     bootstrap: [EmployeeComponent]
 })
