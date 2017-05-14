@@ -11,6 +11,7 @@ export class EmployeeComponent {
         this.currentEmployee = new Employee();
     }
     submit() {
+        this.currentEmployee = new Employee();
         console.log("Success");
     }
 } 

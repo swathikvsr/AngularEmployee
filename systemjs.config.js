@@ -28,7 +28,7 @@
         // packages tells the System loader how to load when no filename and/or no extension
         packages: {
             app: {
-                main: '../../Startup/Startup.js',
+                main: '../Startup/Startup.js',
                 defaultExtension: 'js'
             },
             rxjs: {

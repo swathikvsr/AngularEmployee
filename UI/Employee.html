@@ -1,15 +1,15 @@
-﻿<div class="container">
-    <form>
-        <div class="form-group">
+﻿<div >
+    
+        <div >
             <label for="name">Name:</label>
-            <input type="text" class="form-control" id="employeeName" [(ngmodel)]="Employee.Name" formControlName="Name"/>
+            <input type="text"  id="employeeName" [(ngModel)]="currentEmployee.Name"/>
         </div>
         <br />
         <div class="form-group">
             <label for="ID">ID:</label>
-            <input type="text" class="form-control" id="employeeID" [(ngmodel)]="Employee.Id"  formControlName="ID"/>
+            <input type="text"  id="employeeID" [(ngModel)]="currentEmployee.Id" />
             <br />
         </div>
-        <input type="button" [click]="submit()" id="submit" value="Submit" />
-    </form>
+       <input type="button" (click)="submit()" id="submit" value="Submit" />
+    {{currentEmployee.Name}}
 </div>
